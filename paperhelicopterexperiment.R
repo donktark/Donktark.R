@@ -30,5 +30,5 @@ res[abs(res)>qt(0.957,8)]
 shapiro.test(res)
 hist(res)
 
-#
+#영향점
 summary(influence.measures(fit))
